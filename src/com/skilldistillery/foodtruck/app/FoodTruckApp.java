@@ -106,7 +106,7 @@ public class FoodTruckApp {
 			totalRating += fleet[i].getRating();
 		}
 		double averageRating = totalRating / count;
-		System.out.println(averageRating);
+		System.out.printf("\nAverage rating: %.2f\n", averageRating);
 	}
 
 	public void displayHighestRated(FoodTruck[] fleet, int count) {
